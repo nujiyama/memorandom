@@ -1,7 +1,5 @@
 # Today I Learned
 
-## 2024-09-09
-
 Today I Learned、略してTILというものがあることを知った。  
 [Githubのリポジトリ「TIL」を使って小さなアウトプットを習慣化する #初心者 - Qiita](https://qiita.com/nemui_/items/239335b4ed0c3c797add)  
 あとGitHubの画面上でファイルを作って編集してコミットできることを知った。というか今まで知らなかった。  
