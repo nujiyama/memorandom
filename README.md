@@ -1,1 +1,3 @@
 # memorandom
+
+Today I Learnedのようなもの。
