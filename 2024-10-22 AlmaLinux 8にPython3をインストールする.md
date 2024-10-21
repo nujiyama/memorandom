@@ -54,6 +54,12 @@ lrwxrwxrwx 1 root root  22 Oct 21 19:20 /usr/bin/pip3 -> /etc/alternatives/pip3
 $
 ```
 
+## pipを更新するなら
+
+```bash
+pip3 install --upgrade pip
+```
+
 ## 疑問
 
 dnf module listだとpython3.11、python3.12が出力されないのはなぜか？
