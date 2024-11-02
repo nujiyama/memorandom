@@ -13,13 +13,12 @@ $
 使用可能なバージョンを確認する。
 
 ```bash
-$ dnf search python3 | grep -E '^python3[\.0-9]+\.x86_64'
-Last metadata expiration check: 0:22:21 ago on Mon Oct 21 18:43:23 2024.
-python3.11.x86_64 : Version 3.11 of the Python interpreter
-python3.12.x86_64 : Version 3.12 of the Python interpreter
-python36.x86_64 : Interpreter of the Python programming language
-python38.x86_64 : Interpreter of the Python programming language
-python39.x86_64 : Version 3.9 of the Python interpreter
+$ dnf list | grep -E '^python3[\.0-9]+\.x86_64'
+python3.11.x86_64                                      3.11.9-7.el8_10                                            appstream
+python3.12.x86_64                                      3.12.5-2.el8_10                                            appstream
+python36.x86_64                                        3.6.8-39.module_el8.10.0+3769+3838165b                     appstream
+python38.x86_64                                        3.8.17-2.module_el8.9.0+3633+e453b53a                      appstream
+python39.x86_64                                        3.9.20-1.module_el8.10.0+3902+1690be06                     appstream
 $
 ```
 
@@ -57,7 +56,8 @@ $
 ## pipを更新するなら
 
 ```bash
-pip3 install --upgrade pip
+$ pip3 install --upgrade pip
+$ pip3 -V
 ```
 
 ## 疑問
